@@ -1,0 +1,63 @@
+.main-gray-box-createsurvey {
+  border: 2px solid black;
+  background-color: lightgrey;
+  min-height: 100vh;
+  height: 95%;
+  margin: 3%;
+}
+.main-gray-box-createsurvey > h1 {
+  margin: 2;
+  padding: 0;
+}
+.create-survey-white-box {
+  min-height: 80vh;
+  background-color: rgb(240, 240, 240);
+  border: 1px solid black;
+  margin: 2%;
+}
+.add-survey-title {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+  align-items: center;
+}
+.add-remove-survey-title {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-evenly;
+  align-items: center;
+}
+.add-minus-button {
+  margin: 30%;
+}
+.green-line-add-page {
+  width: 90%;
+  background-color: #69deba;
+  height: 2px;
+  margin: 1;
+  box-shadow: 1px 1px 0.5px 1px #b9b9b9;
+}
+.top-three-question-options {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+  /* margin: 15%;
+  padding: 10%; */
+}
+.bottom-two-question-options {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+  /* margin: 15%;
+  padding: 10%; */
+}
+.question-option-box {
+  text-align: center;
+  align-content: center;
+  height: 50px;
+  width: 90px;
+  background-color: #69deba;
+  margin: 3%;
+  border: 1px solid black;
+  box-shadow: 2.5px 2.5px 2px 2.5px #b9b9b9;
+}

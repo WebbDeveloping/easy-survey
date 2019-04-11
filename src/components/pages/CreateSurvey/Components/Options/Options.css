@@ -1,0 +1,10 @@
+.option-container {
+  margin: 2%;
+  border: 1px solid black;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+}
+.stuff {
+  padding: 1%;
+}

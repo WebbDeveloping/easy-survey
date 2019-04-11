@@ -1,0 +1,24 @@
+.question-container {
+  margin: 3%;
+  background-color: rgb(240, 240, 240);
+  min-height: 20vh;
+  border: 1px solid grey;
+}
+.question-title-and-remove-question-button {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  margin: 1%;
+  margin-top: 0;
+  padding: 2%;
+  max-height: 2vh;
+}
+.remove-question-x {
+  color: red;
+  text-shadow: 1px 1px grey;
+}
+.option-list-container {
+  margin: 1%;
+  background-color: white;
+  border: 1px solid black;
+}
